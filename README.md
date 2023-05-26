@@ -24,6 +24,7 @@ This project aims to develop a user-friendly Streamlit application that utilizes
 - Once the data is retrieved from the YouTube API, I've stored it in a MongoDB as data lake. MongoDB is a great choice for a data lake because it can handle unstructured and semi-structured data easily.
 - After collected data for multiple channels,it is then migrated/transformed it to a structured MySQL as data warehouse.
 - Then used SQL queries to join the tables in the SQL data warehouse and retrieve data for specific channels based on user input.
+- With the help of SQL query I have got many interesting insights about the youtube channels.
 - Finally, the retrieved data is displayed in the Streamlit app. Also used Plotly's data visualization features to create charts and graphs to help users analyze the data.
 - Overall, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing it in a MongoDB data lake, migrating it to a SQL data warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app.
 
