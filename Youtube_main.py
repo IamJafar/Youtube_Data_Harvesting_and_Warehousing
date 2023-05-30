@@ -28,13 +28,13 @@ with st.sidebar:
                                    "nav-link-selected": {"background-color": "#C80101"}})
 
 # Bridging a connection with MongoDB Atlas and Creating a new database(youtube_data)
-client = pymongo.MongoClient("mongodb+srv://jafarhussain:1996@cluster0.4gaz2ol.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("your unique client id")
 db = client.youtube_data
 
 # CONNECTING WITH MYSQL DATABASE
-mydb = sql.connect(host="localhost",
-                   user="root",
-                   password="Jafar@1996",
+mydb = sql.connect(host="your host",
+                   user="your user name",
+                   password="your password",
                    database= "youtube_db"
                   )
 mycursor = mydb.cursor(buffered=True)
